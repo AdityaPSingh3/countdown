@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #485563, #29323c);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.countdown-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input[type="datetime-local"] {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.countdown {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.time-section {
+  margin: 0 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.time-section span {
+  display: block;
+  font-size: 14px;
+}
+
+button {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
